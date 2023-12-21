@@ -1,0 +1,19 @@
+a 1
+12
+q1 a -> 1 R q2
+q1 1 -> 1 R q1
+q2 a -> a L q3
+q2 1 -> 1 R q2
+q3 a -> 1 R q6
+q3 1 -> a R q5
+q4 a -> 1 L q5
+q4 1 -> 1 R q4
+q5 a -> 1 L q3
+q5 1 -> 1 L q5
+q6 a -> 1 H q0
+q6 1 -> 1 R q6
+a
+1
+0
+aa111a11a
+2
