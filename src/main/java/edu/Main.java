@@ -20,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         //Scanner scanner = new Scanner(System.in);
-        Scanner scanner = new Scanner(Path.of("commands.txt"));
+        Scanner scanner = new Scanner(Path.of("./src/main/resources/task1.txt"));
 
         //System.out.println("Введите алфавит МТ:");
         Set<Character> alphabet = Arrays.stream(
