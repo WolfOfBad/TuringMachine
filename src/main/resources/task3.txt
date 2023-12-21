@@ -1,0 +1,15 @@
+a 1
+8
+q0 a -> a R q2
+q0 1 -> a R q0
+q2 a -> a R q3
+q2 1 -> a R q2
+q3 a -> a H q1
+q3 1 -> 1 R q4
+q4 a -> 1 H q1
+q4 1 -> 1 R q4
+a
+0
+1
+aa11a111aa
+2
